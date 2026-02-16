@@ -1067,12 +1067,12 @@ Transform {
   }
 }
 DEF LandingSpot Transform {
-  translation 2.253339 -0.02 1.130975
+  translation 1.861248 -0.02 2.984607
   rotation 0 0 0 0
   children Shape {
     appearance Appearance {
       material DEF LS_Mat Material {
-        diffuseColor 0.9411765 0.6039216 0.4666667
+        diffuseColor 1 0 0
       }
     }
     geometry Cylinder {
@@ -1086,7 +1086,7 @@ DEF Lines Transform {
   children DEF Lines_Shape Shape {
     appearance Appearance {
       material Material {
-        diffuseColor 0.9411765 0.6039216 0.4666667
+        diffuseColor 1 0 0
       }
     }
     geometry IndexedFaceSet {
@@ -1098,14 +1098,14 @@ DEF Lines Transform {
       convex FALSE
       coord Coordinate {
         point [
-          1.370529 -0.02 -0.6659349,
-          2.151449 -0.02 -1.535441,
-          2.225848 -0.02 -1.468622,
-          1.444928 -0.02 -0.5991157,
-          2.164359 -0.02 -1.394712,
-          1.298573 -0.02 -2.061217,
-          1.359574 -0.02 -2.140456,
-          2.225359 -0.02 -1.473951 
+          1.619527 -0.02 -0.9143724,
+          1.635558 -0.02 -1.956545,
+          1.735546 -0.02 -1.955007,
+          1.719515 -0.02 -0.9128343,
+          1.636524 -0.02 -1.957464,
+          2.736465 -0.02 -1.919779,
+          2.733041 -0.02 -1.819838,
+          1.6331 -0.02 -1.857523 
         ]
       }
     }
@@ -1417,7 +1417,7 @@ DEF Static_Objects Transform {
   ]
 }
 DEF QuadBody Transform {
-  translation 0.6697248 0.001765 1.441138
+  translation 0.9635974 0.001765 1.67029
   scaleOrientation 0 1 0 0
   children [
     DEF UAV_Collision Transform {
@@ -1485,12 +1485,12 @@ DEF QuadBody Transform {
 }
 DEF IsoNoRotation Viewpoint {
   description "Isometric - No Rotation"
-  position 1.570625 0.670765 2.431139
+  position 1.864497 0.670765 2.66029
   orientation -0.46727 0.858698 0.210466 0.847752
 }
 DEF OnQuadNoRotation Viewpoint {
   description "Chase - No Rotation"
-  position -2.330275 1.001765 1.441138
+  position -2.036402 1.001765 1.67029
   orientation 0 -1 -0 1.57
 }
 DEF BlueMarker Transform {
